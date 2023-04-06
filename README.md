@@ -8,15 +8,15 @@ First project of the Kernel branch @42. The purpose is to create a simple LFS th
 
 ## Resources:
 
-[LFS]([https://www.linuxfromscratch.org/lfs/view/stable/index.html](https://www.linuxfromscratch.org/lfs/view/stable/index.html))
+[LFS](https://www.linuxfromscratch.org/lfs/view/stable/index.html)
 
-[BLFS]([https://www.linuxfromscratch.org/blfs/view/svn/index.html](https://www.linuxfromscratch.org/blfs/view/svn/index.html))
+[BLFS](https://www.linuxfromscratch.org/blfs/view/svn/index.html)
 
-[ft_linux_basic]([https://intra.42.fr/uploads/document/document/426/ft_linux_basic.sh](https://intra.42.fr/uploads/document/document/426/ft_linux_basic.sh))
+[ft_linux_basic](https://intra.42.fr/uploads/document/document/426/ft_linux_basic.sh)
 
-[ft_linux_other]([https://intra.42.fr/uploads/document/document/425/ft_linux_others.sh](https://intra.42.fr/uploads/document/document/425/ft_linux_others.sh))
+[ft_linux_other](https://intra.42.fr/uploads/document/document/425/ft_linux_others.sh)
 
-[LFS wiki]([https://en.wikibooks.org/wiki/Linux_From_Scratch](https://en.wikibooks.org/wiki/Linux_From_Scratch))
+[LFS wiki](https://en.wikibooks.org/wiki/Linux_From_Scratch)
 
 ### Tasks to do:
 
@@ -116,7 +116,7 @@ All default and finally hit **w** to Save fdisk.
 
 Download Sources from wget list for next step
 
-[wget list stable]([https://www.linuxfromscratch.org/lfs/downloads/stable/wget-list](https://www.linuxfromscratch.org/lfs/downloads/stable/wget-list))
+[wget list stable](https://www.linuxfromscratch.org/lfs/downloads/stable/wget-list)
 
 I find some Sources can not be downloaded by wget. Then go to web and download the source zip yourself and scp into the machine.
 
@@ -423,7 +423,7 @@ Both method all involve in setting `/etc/sysconfig/ifconfig.<interface, enp0s3>`
 
 ### Static method
 
-[link]([https://www.linuxfromscratch.org/lfs/view/stable/chapter09/network.html](https://www.linuxfromscratch.org/lfs/view/stable/chapter09/network.html))
+[link](https://www.linuxfromscratch.org/lfs/view/stable/chapter09/network.html)
 
 here is an example of static ip address setting. Often times it might not be working because the ip value is not suitable in the network.
 
@@ -447,7 +447,7 @@ nameserver 8.8.8.8
 
 ### DHCP Method
 
-[link]([https://www.linuxfromscratch.org/blfs/view/svn/basicnet/dhcp.html](https://www.linuxfromscratch.org/blfs/view/svn/basicnet/dhcp.html))
+[link](https://www.linuxfromscratch.org/blfs/view/svn/basicnet/dhcp.html)
 
 This method need to install DHCP-4.4.3-P1 so that the protocol could manage the allocation of ip for your. Follow the tutorial and finishing installing the program. Then create the following files.
 
